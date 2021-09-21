@@ -6,9 +6,9 @@
             color: rgb(219, 107, 107);
             font-size: 100%;
             text-align: center;
-
-        
+            text-shadow: #000 0px 3px 5px
 }
+
 
 .h2 {color: rgb(221, 216, 139);
         font-size: 14px;
@@ -22,11 +22,8 @@
         text-shadow: #000 0px 3px 5px;
         border-width: 3px;
         border-style: solid;
-        border-color: #000;
-}
-
-.parrafos-div {background-color: rgb(112, 34, 34);
-                background-size: 100%;
+        border-color: rgb(221, 216, 139);
+        border-radius: 7px;
 }
 
 .parrafo2 {border-width: 3px;
@@ -36,6 +33,7 @@
         font-size: 14px;
         text-align: center;
         color: white;
+        border-radius: 7px;
 }
 
 .parrafo3 {border-width: 3px;
@@ -45,6 +43,8 @@
         font-size: 14px;
         text-align: center;
         color: white;
+        border-radius: 7px;
+        
 
 }
 
@@ -66,6 +66,15 @@
         text-shadow: #000 0px 3px 5px;
         
 }
+
+
+.borde-nv {border-width: 1px;
+        border-color: rgb(221, 216, 139);
+        border-style: solid;
+        border-radius: 7px;
+}
+
+
 
 .h1contacto {background-color: rgb(221, 216, 139);
             background-size: 100%;
@@ -95,14 +104,15 @@
 .infocontacto {border-width: 1px;
     border-color: black;
     border-style: solid;
-    border-width: 100%;
     text-shadow: black 0px 3px 5px;
+    border-radius: 7px;
+    text-align: center;
 }
 
 .vinocontacto {border-width: 1px;
             border-color: rgb(241, 201, 114);
             border-style: solid;
-            border-radius: 10px;
+            border-radius: 7px;
             margin-bottom: 10px;
 }
 
@@ -113,6 +123,7 @@
         font-size: 18px;
         color: #ffffff;
         text-shadow: #000 0px 3px 5px;
+        text-align: center;
 }
 
 .nosotros {background-color: #2d1017;
