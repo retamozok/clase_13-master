@@ -26,47 +26,73 @@
         border-radius: 7px;
 }
 
+.parrafo1:hover {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #ffffff;
+        font-size: 14px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-shadow: #000 0px 3px 3px;
+        border-width: 3px;
+        border-style:solid;
+        border-color: rgb(221, 216, 139);
+        border-radius: 7px;
+        box-shadow: #ddd 0px 3px 3px;
+}
+
+
 .parrafo2 {border-width: 3px;
         border-style: solid;
         border-color: rgb(221, 216, 139);
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 14px;
+        text-shadow: #000 0px 3px 5px;
         text-align: center;
         color: white;
         border-radius: 7px;
+
 }
 
-.parrafo3 {border-width: 3px;
+.parrafo2:hover {border-width: 3px;
         border-style: solid;
         border-color: rgb(221, 216, 139);
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 14px;
+        text-shadow: #000 0px 3px 3px;
         text-align: center;
         color: white;
         border-radius: 7px;
-        
+        box-shadow: #ddd 0px 3px 3px;
 
 }
+
 
 .titulovinos {background-color: rgb(221, 216, 139);
         background-size: 100%;
         font-family: 'Sofia', 'cursive';
         font-size: 24px;
         color: #000;
-        text-align: center;   
+        text-align: center; 
 }
 
 .vinos {background-color: #6B2737;
         background-size: 100%;
         font-size: 14px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Sofia', 'cursive';
         color: #ddd;
         margin-bottom: 10px;
         text-align: center;
-        text-shadow: #000 0px 3px 5px;
-        
+        text-shadow: #000 0px 3px 3px;        
 }
 
+.vinos:hover {background-color: #6B2737;
+        background-size: 100%;
+        font-size: 14px;
+        font-family: 'Sofia', 'cursive';
+        color: #ddd;
+        margin-bottom: 10px;
+        text-align: center;
+        text-shadow: #000 0px 3px 3px;        
+}
 
 .borde-nv {border-width: 1px;
         border-color: rgb(221, 216, 139);
@@ -74,6 +100,13 @@
         border-radius: 7px;
 }
 
+.borde-nv:hover {border-width: 2px;
+        border-color: rgb(221, 216, 139);
+        border-style: solid;
+        border-radius: 7px;
+        box-shadow: #ddd 0px 3px 3px;
+
+}
 
 
 .h1contacto {background-color: rgb(221, 216, 139);
@@ -101,12 +134,8 @@
                 
 }
 
-.infocontacto {border-width: 1px;
-    border-color: black;
-    border-style: solid;
-    text-shadow: black 0px 3px 5px;
-    border-radius: 7px;
-    text-align: center;
+.infocontacto {text-shadow: black 0px 3px 5px;
+              text-align: center;
 }
 
 .vinocontacto {border-width: 1px;
